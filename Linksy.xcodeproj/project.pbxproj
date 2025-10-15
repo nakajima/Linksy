@@ -16,10 +16,8 @@
 		A660BDBD2E9F60F6003A9647 /* GRDBQuery in Frameworks */ = {isa = PBXBuildFile; productRef = A660BDBC2E9F60F6003A9647 /* GRDBQuery */; };
 		A66F9D422E96E9A70086A503 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9D412E96E9A70086A503 /* KeychainAccess */; };
 		A66F9D452E96F6D00086A503 /* HTMLString in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9D442E96F6D00086A503 /* HTMLString */; };
-		A66F9DBE2E9719460086A503 /* OpenGraph in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DBD2E9719460086A503 /* OpenGraph */; };
 		A66F9DC82E9B59D50086A503 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DC72E9B59D50086A503 /* KeychainAccess */; };
 		A66F9DCA2E9B59E50086A503 /* HTMLString in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DC92E9B59E50086A503 /* HTMLString */; };
-		A6B30FEE2EA0542300B23FE0 /* LinkWarden in Frameworks */ = {isa = PBXBuildFile; productRef = A6450E082E57ECAF00B5C57E /* LinkWarden */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,8 +142,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B30FEE2EA0542300B23FE0 /* LinkWarden in Frameworks */,
-				A66F9DBE2E9719460086A503 /* OpenGraph in Frameworks */,
 				A66F9D452E96F6D00086A503 /* HTMLString in Frameworks */,
 				A66F9D422E96E9A70086A503 /* KeychainAccess in Frameworks */,
 				A660BD442E9F320B003A9647 /* GRDBQuery in Frameworks */,
@@ -241,7 +237,6 @@
 				A6450E082E57ECAF00B5C57E /* LinkWarden */,
 				A66F9D412E96E9A70086A503 /* KeychainAccess */,
 				A66F9D442E96F6D00086A503 /* HTMLString */,
-				A66F9DBD2E9719460086A503 /* OpenGraph */,
 				A660BD402E9F31FF003A9647 /* GRDB */,
 				A660BD432E9F320B003A9647 /* GRDBQuery */,
 			);
@@ -359,7 +354,6 @@
 			packageReferences = (
 				A66F9D402E96E9A70086A503 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				A66F9D432E96F6D00086A503 /* XCRemoteSwiftPackageReference "HTMLString" */,
-				A66F9DBC2E9719460086A503 /* XCRemoteSwiftPackageReference "OpenGraph" */,
 				A660BD3F2E9F31FF003A9647 /* XCRemoteSwiftPackageReference "GRDB" */,
 				A660BD422E9F320B003A9647 /* XCRemoteSwiftPackageReference "GRDBQuery" */,
 			);
@@ -944,14 +938,6 @@
 				minimumVersion = 6.0.1;
 			};
 		};
-		A66F9DBC2E9719460086A503 /* XCRemoteSwiftPackageReference "OpenGraph" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/satoshi-takano/OpenGraph";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.0;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -988,11 +974,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A66F9D432E96F6D00086A503 /* XCRemoteSwiftPackageReference "HTMLString" */;
 			productName = HTMLString;
-		};
-		A66F9DBD2E9719460086A503 /* OpenGraph */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A66F9DBC2E9719460086A503 /* XCRemoteSwiftPackageReference "OpenGraph" */;
-			productName = OpenGraph;
 		};
 		A66F9DC72E9B59D50086A503 /* KeychainAccess */ = {
 			isa = XCSwiftPackageProductDependency;
