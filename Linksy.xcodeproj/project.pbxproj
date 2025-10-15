@@ -1,0 +1,1002 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6450E132E57F16000B5C57E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6450E122E57F16000B5C57E /* WidgetKit.framework */; };
+		A6450E152E57F16000B5C57E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6450E142E57F16000B5C57E /* SwiftUI.framework */; };
+		A6450E222E57F16100B5C57E /* LinksyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A6450E102E57F16000B5C57E /* LinksyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A660BD412E9F31FF003A9647 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = A660BD402E9F31FF003A9647 /* GRDB */; };
+		A660BD442E9F320B003A9647 /* GRDBQuery in Frameworks */ = {isa = PBXBuildFile; productRef = A660BD432E9F320B003A9647 /* GRDBQuery */; };
+		A660BD462E9F3216003A9647 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = A660BD452E9F3216003A9647 /* GRDB */; };
+		A660BDBD2E9F60F6003A9647 /* GRDBQuery in Frameworks */ = {isa = PBXBuildFile; productRef = A660BDBC2E9F60F6003A9647 /* GRDBQuery */; };
+		A66F9D422E96E9A70086A503 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9D412E96E9A70086A503 /* KeychainAccess */; };
+		A66F9D452E96F6D00086A503 /* HTMLString in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9D442E96F6D00086A503 /* HTMLString */; };
+		A66F9DBE2E9719460086A503 /* OpenGraph in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DBD2E9719460086A503 /* OpenGraph */; };
+		A66F9DC82E9B59D50086A503 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DC72E9B59D50086A503 /* KeychainAccess */; };
+		A66F9DCA2E9B59E50086A503 /* HTMLString in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DC92E9B59E50086A503 /* HTMLString */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6450DEA2E57EC9400B5C57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6450DD02E57EC9400B5C57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6450DD72E57EC9400B5C57E;
+			remoteInfo = Linksy;
+		};
+		A6450DF42E57EC9400B5C57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6450DD02E57EC9400B5C57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6450DD72E57EC9400B5C57E;
+			remoteInfo = Linksy;
+		};
+		A6450E202E57F16100B5C57E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6450DD02E57EC9400B5C57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6450E0F2E57F16000B5C57E;
+			remoteInfo = LinksyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6450E272E57F16100B5C57E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A6450E222E57F16100B5C57E /* LinksyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6450DD82E57EC9400B5C57E /* Linksy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linksy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6450DE92E57EC9400B5C57E /* LinksyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinksyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6450DF32E57EC9400B5C57E /* LinksyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinksyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6450E102E57F16000B5C57E /* LinksyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LinksyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6450E122E57F16000B5C57E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
+		A6450E142E57F16000B5C57E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
+		A66F9DCB2E9B5C020086A503 /* LinksyWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LinksyWidgetExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A6450DFB2E57EC9400B5C57E /* Exceptions for "Linksy" folder in "Linksy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A6450DD72E57EC9400B5C57E /* Linksy */;
+		};
+		A6450E262E57F16100B5C57E /* Exceptions for "LinksyWidget" folder in "LinksyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A6450E0F2E57F16000B5C57E /* LinksyWidgetExtension */;
+		};
+		A660BD3E2E9E1D99003A9647 /* Exceptions for "LinksyWidget" folder in "Linksy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LinkIntent.swift,
+			);
+			target = A6450DD72E57EC9400B5C57E /* Linksy */;
+		};
+		A66F9DC22E9B53D50086A503 /* Exceptions for "Linksy" folder in "LinksyWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppGroup.swift,
+				ContentView.swift,
+				Link.swift,
+				LinkWarden.swift,
+				LinkWardenResponse.swift,
+				LinkWidgetView.swift,
+				Migrate.swift,
+				String.swift,
+			);
+			target = A6450E0F2E57F16000B5C57E /* LinksyWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A6450DDA2E57EC9400B5C57E /* Linksy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A6450DFB2E57EC9400B5C57E /* Exceptions for "Linksy" folder in "Linksy" target */,
+				A66F9DC22E9B53D50086A503 /* Exceptions for "Linksy" folder in "LinksyWidgetExtension" target */,
+			);
+			path = Linksy;
+			sourceTree = "<group>";
+		};
+		A6450DEC2E57EC9400B5C57E /* LinksyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinksyTests;
+			sourceTree = "<group>";
+		};
+		A6450DF62E57EC9400B5C57E /* LinksyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LinksyUITests;
+			sourceTree = "<group>";
+		};
+		A6450E162E57F16000B5C57E /* LinksyWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A660BD3E2E9E1D99003A9647 /* Exceptions for "LinksyWidget" folder in "Linksy" target */,
+				A6450E262E57F16100B5C57E /* Exceptions for "LinksyWidget" folder in "LinksyWidgetExtension" target */,
+			);
+			path = LinksyWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6450DD52E57EC9400B5C57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F9DBE2E9719460086A503 /* OpenGraph in Frameworks */,
+				A66F9D452E96F6D00086A503 /* HTMLString in Frameworks */,
+				A66F9D422E96E9A70086A503 /* KeychainAccess in Frameworks */,
+				A660BD442E9F320B003A9647 /* GRDBQuery in Frameworks */,
+				A660BD412E9F31FF003A9647 /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450DE62E57EC9400B5C57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450DF02E57EC9400B5C57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450E0D2E57F16000B5C57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66F9DCA2E9B59E50086A503 /* HTMLString in Frameworks */,
+				A660BD462E9F3216003A9647 /* GRDB in Frameworks */,
+				A660BDBD2E9F60F6003A9647 /* GRDBQuery in Frameworks */,
+				A66F9DC82E9B59D50086A503 /* KeychainAccess in Frameworks */,
+				A6450E152E57F16000B5C57E /* SwiftUI.framework in Frameworks */,
+				A6450E132E57F16000B5C57E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6450DCF2E57EC9400B5C57E = {
+			isa = PBXGroup;
+			children = (
+				A66F9DCB2E9B5C020086A503 /* LinksyWidgetExtension.entitlements */,
+				A6450DDA2E57EC9400B5C57E /* Linksy */,
+				A6450DEC2E57EC9400B5C57E /* LinksyTests */,
+				A6450DF62E57EC9400B5C57E /* LinksyUITests */,
+				A6450E162E57F16000B5C57E /* LinksyWidget */,
+				A6450E112E57F16000B5C57E /* Frameworks */,
+				A6450DD92E57EC9400B5C57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6450DD92E57EC9400B5C57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6450DD82E57EC9400B5C57E /* Linksy.app */,
+				A6450DE92E57EC9400B5C57E /* LinksyTests.xctest */,
+				A6450DF32E57EC9400B5C57E /* LinksyUITests.xctest */,
+				A6450E102E57F16000B5C57E /* LinksyWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6450E112E57F16000B5C57E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6450E122E57F16000B5C57E /* WidgetKit.framework */,
+				A6450E142E57F16000B5C57E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6450DD72E57EC9400B5C57E /* Linksy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6450DFC2E57EC9400B5C57E /* Build configuration list for PBXNativeTarget "Linksy" */;
+			buildPhases = (
+				A6450DD42E57EC9400B5C57E /* Sources */,
+				A6450DD52E57EC9400B5C57E /* Frameworks */,
+				A6450DD62E57EC9400B5C57E /* Resources */,
+				A6450E272E57F16100B5C57E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6450E212E57F16100B5C57E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6450DDA2E57EC9400B5C57E /* Linksy */,
+			);
+			name = Linksy;
+			packageProductDependencies = (
+				A6450E082E57ECAF00B5C57E /* LinkWarden */,
+				A66F9D412E96E9A70086A503 /* KeychainAccess */,
+				A66F9D442E96F6D00086A503 /* HTMLString */,
+				A66F9DBD2E9719460086A503 /* OpenGraph */,
+				A660BD402E9F31FF003A9647 /* GRDB */,
+				A660BD432E9F320B003A9647 /* GRDBQuery */,
+			);
+			productName = Linksy;
+			productReference = A6450DD82E57EC9400B5C57E /* Linksy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6450DE82E57EC9400B5C57E /* LinksyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6450E012E57EC9400B5C57E /* Build configuration list for PBXNativeTarget "LinksyTests" */;
+			buildPhases = (
+				A6450DE52E57EC9400B5C57E /* Sources */,
+				A6450DE62E57EC9400B5C57E /* Frameworks */,
+				A6450DE72E57EC9400B5C57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6450DEB2E57EC9400B5C57E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6450DEC2E57EC9400B5C57E /* LinksyTests */,
+			);
+			name = LinksyTests;
+			packageProductDependencies = (
+			);
+			productName = LinksyTests;
+			productReference = A6450DE92E57EC9400B5C57E /* LinksyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6450DF22E57EC9400B5C57E /* LinksyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6450E042E57EC9400B5C57E /* Build configuration list for PBXNativeTarget "LinksyUITests" */;
+			buildPhases = (
+				A6450DEF2E57EC9400B5C57E /* Sources */,
+				A6450DF02E57EC9400B5C57E /* Frameworks */,
+				A6450DF12E57EC9400B5C57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6450DF52E57EC9400B5C57E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6450DF62E57EC9400B5C57E /* LinksyUITests */,
+			);
+			name = LinksyUITests;
+			packageProductDependencies = (
+			);
+			productName = LinksyUITests;
+			productReference = A6450DF32E57EC9400B5C57E /* LinksyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A6450E0F2E57F16000B5C57E /* LinksyWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6450E232E57F16100B5C57E /* Build configuration list for PBXNativeTarget "LinksyWidgetExtension" */;
+			buildPhases = (
+				A6450E0C2E57F16000B5C57E /* Sources */,
+				A6450E0D2E57F16000B5C57E /* Frameworks */,
+				A6450E0E2E57F16000B5C57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A6450E162E57F16000B5C57E /* LinksyWidget */,
+			);
+			name = LinksyWidgetExtension;
+			packageProductDependencies = (
+				A66F9DC72E9B59D50086A503 /* KeychainAccess */,
+				A66F9DC92E9B59E50086A503 /* HTMLString */,
+				A660BD452E9F3216003A9647 /* GRDB */,
+				A660BDBC2E9F60F6003A9647 /* GRDBQuery */,
+			);
+			productName = LinksyWidgetExtension;
+			productReference = A6450E102E57F16000B5C57E /* LinksyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6450DD02E57EC9400B5C57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A6450DD72E57EC9400B5C57E = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					A6450DE82E57EC9400B5C57E = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A6450DD72E57EC9400B5C57E;
+					};
+					A6450DF22E57EC9400B5C57E = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = A6450DD72E57EC9400B5C57E;
+					};
+					A6450E0F2E57F16000B5C57E = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = A6450DD32E57EC9400B5C57E /* Build configuration list for PBXProject "Linksy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6450DCF2E57EC9400B5C57E;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A66F9D402E96E9A70086A503 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				A66F9D432E96F6D00086A503 /* XCRemoteSwiftPackageReference "HTMLString" */,
+				A66F9DBC2E9719460086A503 /* XCRemoteSwiftPackageReference "OpenGraph" */,
+				A660BD3F2E9F31FF003A9647 /* XCRemoteSwiftPackageReference "GRDB" */,
+				A660BD422E9F320B003A9647 /* XCRemoteSwiftPackageReference "GRDBQuery" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A6450DD92E57EC9400B5C57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6450DD72E57EC9400B5C57E /* Linksy */,
+				A6450DE82E57EC9400B5C57E /* LinksyTests */,
+				A6450DF22E57EC9400B5C57E /* LinksyUITests */,
+				A6450E0F2E57F16000B5C57E /* LinksyWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6450DD62E57EC9400B5C57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450DE72E57EC9400B5C57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450DF12E57EC9400B5C57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450E0E2E57F16000B5C57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6450DD42E57EC9400B5C57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450DE52E57EC9400B5C57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450DEF2E57EC9400B5C57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6450E0C2E57F16000B5C57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6450DEB2E57EC9400B5C57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6450DD72E57EC9400B5C57E /* Linksy */;
+			targetProxy = A6450DEA2E57EC9400B5C57E /* PBXContainerItemProxy */;
+		};
+		A6450DF52E57EC9400B5C57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6450DD72E57EC9400B5C57E /* Linksy */;
+			targetProxy = A6450DF42E57EC9400B5C57E /* PBXContainerItemProxy */;
+		};
+		A6450E212E57F16100B5C57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6450E0F2E57F16000B5C57E /* LinksyWidgetExtension */;
+			targetProxy = A6450E202E57F16100B5C57E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6450DFD2E57EC9400B5C57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Linksy/Linksy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Linksy/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.Linksy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		A6450DFE2E57EC9400B5C57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Linksy/Linksy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Linksy/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.Linksy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		A6450DFF2E57EC9400B5C57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6450E002E57EC9400B5C57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A6450E022E57EC9400B5C57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LinksyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linksy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Linksy";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		A6450E032E57EC9400B5C57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LinksyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Linksy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Linksy";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		A6450E052E57EC9400B5C57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LinksyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Linksy;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		A6450E062E57EC9400B5C57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.LinksyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = Linksy;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		A6450E242E57F16100B5C57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LinksyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LinksyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LinksyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.Linksy.LinksyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		A6450E252E57F16100B5C57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = LinksyWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z773AM52SJ;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LinksyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LinksyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fm.folder.Linksy.LinksyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6450DD32E57EC9400B5C57E /* Build configuration list for PBXProject "Linksy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6450DFF2E57EC9400B5C57E /* Debug */,
+				A6450E002E57EC9400B5C57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6450DFC2E57EC9400B5C57E /* Build configuration list for PBXNativeTarget "Linksy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6450DFD2E57EC9400B5C57E /* Debug */,
+				A6450DFE2E57EC9400B5C57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6450E012E57EC9400B5C57E /* Build configuration list for PBXNativeTarget "LinksyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6450E022E57EC9400B5C57E /* Debug */,
+				A6450E032E57EC9400B5C57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6450E042E57EC9400B5C57E /* Build configuration list for PBXNativeTarget "LinksyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6450E052E57EC9400B5C57E /* Debug */,
+				A6450E062E57EC9400B5C57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6450E232E57F16100B5C57E /* Build configuration list for PBXNativeTarget "LinksyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6450E242E57F16100B5C57E /* Debug */,
+				A6450E252E57F16100B5C57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A660BD3F2E9F31FF003A9647 /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A660BD422E9F320B003A9647 /* XCRemoteSwiftPackageReference "GRDBQuery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDBQuery";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.11.0;
+			};
+		};
+		A66F9D402E96E9A70086A503 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A66F9D432E96F6D00086A503 /* XCRemoteSwiftPackageReference "HTMLString" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexaubry/HTMLString";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.1;
+			};
+		};
+		A66F9DBC2E9719460086A503 /* XCRemoteSwiftPackageReference "OpenGraph" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/satoshi-takano/OpenGraph";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6450E082E57ECAF00B5C57E /* LinkWarden */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LinkWarden;
+		};
+		A660BD402E9F31FF003A9647 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A660BD3F2E9F31FF003A9647 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+		A660BD432E9F320B003A9647 /* GRDBQuery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A660BD422E9F320B003A9647 /* XCRemoteSwiftPackageReference "GRDBQuery" */;
+			productName = GRDBQuery;
+		};
+		A660BD452E9F3216003A9647 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A660BD3F2E9F31FF003A9647 /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
+		A660BDBC2E9F60F6003A9647 /* GRDBQuery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A660BD422E9F320B003A9647 /* XCRemoteSwiftPackageReference "GRDBQuery" */;
+			productName = GRDBQuery;
+		};
+		A66F9D412E96E9A70086A503 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A66F9D402E96E9A70086A503 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		A66F9D442E96F6D00086A503 /* HTMLString */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A66F9D432E96F6D00086A503 /* XCRemoteSwiftPackageReference "HTMLString" */;
+			productName = HTMLString;
+		};
+		A66F9DBD2E9719460086A503 /* OpenGraph */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A66F9DBC2E9719460086A503 /* XCRemoteSwiftPackageReference "OpenGraph" */;
+			productName = OpenGraph;
+		};
+		A66F9DC72E9B59D50086A503 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A66F9D402E96E9A70086A503 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		A66F9DC92E9B59E50086A503 /* HTMLString */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A66F9D432E96F6D00086A503 /* XCRemoteSwiftPackageReference "HTMLString" */;
+			productName = HTMLString;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A6450DD02E57EC9400B5C57E /* Project object */;
+}
