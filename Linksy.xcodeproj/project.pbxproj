@@ -234,7 +234,6 @@
 			);
 			name = Linksy;
 			packageProductDependencies = (
-				A6450E082E57ECAF00B5C57E /* LinkWarden */,
 				A66F9D412E96E9A70086A503 /* KeychainAccess */,
 				A66F9D442E96F6D00086A503 /* HTMLString */,
 				A660BD402E9F31FF003A9647 /* GRDB */,
@@ -941,10 +940,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A6450E082E57ECAF00B5C57E /* LinkWarden */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LinkWarden;
-		};
 		A660BD402E9F31FF003A9647 /* GRDB */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A660BD3F2E9F31FF003A9647 /* XCRemoteSwiftPackageReference "GRDB" */;
