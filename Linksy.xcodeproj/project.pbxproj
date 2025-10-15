@@ -19,6 +19,7 @@
 		A66F9DBE2E9719460086A503 /* OpenGraph in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DBD2E9719460086A503 /* OpenGraph */; };
 		A66F9DC82E9B59D50086A503 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DC72E9B59D50086A503 /* KeychainAccess */; };
 		A66F9DCA2E9B59E50086A503 /* HTMLString in Frameworks */ = {isa = PBXBuildFile; productRef = A66F9DC92E9B59E50086A503 /* HTMLString */; };
+		A6B30FEE2EA0542300B23FE0 /* LinkWarden in Frameworks */ = {isa = PBXBuildFile; productRef = A6450E082E57ECAF00B5C57E /* LinkWarden */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B30FEE2EA0542300B23FE0 /* LinkWarden in Frameworks */,
 				A66F9DBE2E9719460086A503 /* OpenGraph in Frameworks */,
 				A66F9D452E96F6D00086A503 /* HTMLString in Frameworks */,
 				A66F9D422E96E9A70086A503 /* KeychainAccess in Frameworks */,
@@ -470,6 +472,9 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Linksy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linksy Widgets";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -516,6 +521,9 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Linksy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Linksy Widgets";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
