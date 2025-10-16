@@ -104,7 +104,7 @@ struct LinksListView: View {
 					AppGroup.keychain["token"] = nil
 					self.logout()
 				}
-				Button("Cancel", role: .cancel) {}
+				Button("Cancel", role: .cancel) { }
 			}
 		}
 		
