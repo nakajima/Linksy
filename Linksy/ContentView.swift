@@ -122,8 +122,8 @@ struct LoginView: View {
 		Form {
 			Section("Enter your LinkWarden details") {
 				TextField("URL", text: $url)
-					.textInputAutocapitalization(.never)
 				#if os(iOS)
+					.textInputAutocapitalization(.never)
 					.textContentType(.URL)
 				#endif
 					.focused($isFocused)
