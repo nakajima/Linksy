@@ -10,6 +10,7 @@ import KeychainAccess
 
 public enum AppGroup {
 	public static var containerURL: URL {
+		// You'll want to change this
 		guard let containerURL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.fm.folder.linksy") else {
 			fatalError("Could not get containerURL")
 		}
