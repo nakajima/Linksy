@@ -10,5 +10,9 @@
 	<array>
 		<string>group.fm.folder.linksy</string>
 	</array>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)fm.folder.Linksy</string>
+	</array>
 </dict>
 </plist>
