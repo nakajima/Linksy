@@ -8,8 +8,6 @@
 import LinkPresentation
 import GRDB
 import SwiftUI
-import UIKit
-import UniformTypeIdentifiers
 import WidgetKit
 import AppIntents
 
