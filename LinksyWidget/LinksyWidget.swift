@@ -8,7 +8,7 @@
 import LinkPresentation
 import GRDB
 import SwiftUI
-import WidgetKit
+@preconcurrency import WidgetKit
 import AppIntents
 
 extension WidgetFamily {
@@ -103,11 +103,12 @@ struct Provider: AppIntentTimelineProvider {
 		
 		await SavedLink.refresh(client: client, database: db)
 		let links = try! await db.read { db in
-			try SavedLink.order(Column("lastSuggestedAt").desc).limit(context.family.linkCount).fetchAll(db)
+			try SavedLink.order([Column("lastTappedAt").asc, Column("lastSuggestedAt").asc]).limit(context.family.linkCount).fetchAll(db)
 		}
 		
 		for var link in links {
 			link.lastSuggestedAt = Date()
+			let link = link
 			try! await db.write { db in
 				try link.save(db)
 			}

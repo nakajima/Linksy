@@ -77,10 +77,10 @@ nonisolated struct SavedLink: Codable, Identifiable, FetchableRecord, Persistabl
 		return part.removingHTMLEntities()
 	}
 
-	nonisolated static func from(api link: LWLink) async -> SavedLink {
+	@MainActor static func from(api link: LWLink) async -> SavedLink {
 		var link = link
 
-		let metadata = await LPLinkView(url: URL(string: link.url!)!).metadata
+		let metadata = LPLinkView(url: URL(string: link.url!)!).metadata
 		link.name = metadata.title ?? link.name
 
 		return SavedLink(

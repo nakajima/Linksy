@@ -8,6 +8,7 @@ import GRDB
 import GRDBQuery
 import SwiftUI
 import KeychainAccess
+import WidgetKit
 
 nonisolated struct LinksQuery: ValueObservationQueryable {
 	static var defaultValue: [SavedLink] { [] }
@@ -82,6 +83,8 @@ struct LinksListView: View {
 						try database.writer.write { db in
 							try link.save(db)
 						}
+						
+						WidgetCenter.shared.reloadAllTimelines()
 					}
 				} catch {
 					print("error updating link: \(error)")
